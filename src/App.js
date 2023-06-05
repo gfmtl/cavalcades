@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import logo from './logo_small.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* ' <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           The cavalcade website is under reconstruction for the 2023 edition. New information coming soon!
         </p>
