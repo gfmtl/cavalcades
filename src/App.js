@@ -1,17 +1,27 @@
 import { HashLink } from 'react-router-hash-link';
 
-import logo from './logo_small.png';
+import logo from './cavalcade-2023-logo_noir_transparent.png';
 import './App.css';
 
-const Link = props => <a class="text-green-600 underline hover:no-underline hover:bg-green-600 hover:text-white rounded" href={props.href} target={props.href[0] === '#' ? '_self' : '_blank'}>{props.children}</a>
+const Link = props => 
+<a class="text-green-600 underline hover:no-underline hover:bg-green-600 hover:text-white rounded" href={props.href} target={props.href[0] === '#' ? '_self' : '_blank'}>{props.children}</a>
 
-const Section = props => <section id={props.id} class="px-8">{props.children}</section>
-const SectionTitle = props => <h2 class=" text-purple-600">{props.children}</h2>
-const SubTitle = props => <h3 class="text-xl font-bold">{props.children}</h3>
+const Section = props => 
+<section id={props.id} class="px-8">{props.children}</section>
 
-const Timeline = props => <div class="not-prose"><ol class="relative border-l border-purple-600">{props.children}</ol></div>
+const SectionTitle = props => 
+<h2 class=" text-purple-600">{props.children}</h2>
 
-const Jour = props => <li class="mb-10 relative">
+const SubTitle = props => 
+<h3 class="text-xl font-bold">{props.children}</h3>
+
+const Timeline = props => 
+<div class="not-prose">
+  <ol class="relative border-l border-purple-600">{props.children}</ol>
+</div>
+
+const Jour = props => 
+<li class="mb-10 relative">
   <div class="absolute w-3 h-3 bg-purple-600 rounded-full -left-1.5 border border-white top-2.5" />
   <div class="ml-4">
     <time class="mb-1 text-sm font-normal leading-none text-purple-600">{props.date}</time>
@@ -24,12 +34,14 @@ const Jour = props => <li class="mb-10 relative">
   </div>
 </li>
 
-const Heure = props => <li class="relative flex gap-2 my-3 group-first:group">
+const Heure = props => 
+<li class="relative flex gap-2 my-3 group-first:group">
   <div class="font-bold">{props.start}</div>
   <div>{props.children}</div>
 </li>
 
-const Revendication = props => <div
+const Revendication = props => 
+<div
   class="text-md border border-purple-600 rounded-md my-5 overflow-hidden shadow-lg">
   <div class="p-5 bg-purple-100 cursor-pointer text-purple-900">
     <svg
@@ -52,7 +64,8 @@ const Revendication = props => <div
     </div>
 </div>
 
-const NavItem = props => <li>
+const NavItem = props => 
+<li>
   <a
     href={props.href}
     target={props.href[0] === '#' ? '_self' : '_blank'}
@@ -68,8 +81,8 @@ function App() {
         <div class="mx-auto text-slate-800">
           <div class="p-8 space-y-5 mx-auto text-center text-lg text-purple-600 ">
             <div>Oyez Oyez Oyez!!! <br /> Vous êtes toutes et tous convié.e.s à la</div>
-            <img src={logo} alt="Cavalcade 2022 - Deux Roues Un avenir" class="m-auto" />
-            <div>Du 3 au 5 septembre 2022</div>
+            <img src={logo} alt="Cavalcade 2022 - Deux Roues Un avenir" class="m-auto picture" />
+            <div>Du 2 au 4 septembre 2023</div>
           </div>
         </div>
         
@@ -98,14 +111,14 @@ function App() {
                 avec quelques revendications!
               </p>
               <p>
-                Une randonnée vélo-camping de trois jours suivie d'un événement à Québec pour faire
+                Une randonnée vélo-camping de trois jours ayant pour objectif de faire
                 valoir l'importance du déplacement actif au sein de notre société.
               </p>
               <dl>
                 <dt>Quand</dt>
-                <dd>Du 3 au 5 septembre 2022, samedi au lundi de la fête du Travail.</dd>
+                <dd>Du 2 au 4 septembre 2023, samedi au lundi de la fête du Travail.</dd>
                 <dt>Trajet</dt>
-                <dd>Montréal -> Québec (<Link href="">détails...</Link>)</dd>
+                <dd>Montréal -> Granby -> Montréal {/*(<Link href="https://www.google.com/maps/d/edit?mid=1JQ0GqPk1kZXJiGJGs2jmEFNbp3l5BTc&ll=45.439593264489424%2C-73.21891102031331&z=11">détails...</Link>)*/}</dd>
               </dl>
             </Section>
 
@@ -218,13 +231,15 @@ function App() {
             <Section id="chemin">
               <SectionTitle>Itinéraire</SectionTitle>
 
-              <p>Montréal -> Québec sur la rive nord, route 138.</p>
+              <p>Montréal -> Granby -> Montréal sur la rive sud, majoritairement via la route verte.</p>
 
-              <Timeline>
+              <p>Plus d'informations à venir!</p>
+
+              {/*<Timeline>
                 
                 <Jour
                   link="https://www.google.com/maps/dir/House+cyclists,+Rue+Rachel+Est,+Montreal,+QC/Parc+de+l'%C3%8Ele-Lebel,+Rue+Notre+Dame,+Repentigny,+QC/Parc+G%C3%A9rard-Lavall%C3%A9e,+Rue+Saint+Antoine+Sud,+Lavaltrie,+QC/Belv%C3%A9d%C3%A8re+Jacques-Lavall%C3%A9e,+Rue+De+Frontenac,+Berthierville,+QC/Parc+tricentenaire,+Louiseville,+QC/@45.8906793,-73.8180049,9z/data=!3m1!4b1!4m32!4m31!1m5!1m1!1s0x4cc91bc5ead070d7:0xdb139e4a2a664759!2m2!1d-73.5731582!2d45.5272293!1m5!1m1!1s0x4cc8e5ceb269b14d:0xf093f6db64b7bb5e!2m2!1d-73.4496109!2d45.7354089!1m5!1m1!1s0x4cc8ed5ee828fec7:0xfa10e2e2441059b0!2m2!1d-73.2753851!2d45.883952!1m5!1m1!1s0x4cc89bfbcfb15b4b:0xcb819ab0961fff3c!2m2!1d-73.1754886!2d46.0798773!1m5!1m1!1s0x4cc62fa183928631:0x18be139896f97ffe!2m2!1d-72.9420103!2d46.2570143!3e1!5m1!1e3"
-                  date="Samedi 3 septembre 2022"
+                  date="Samedi 2 septembre 2022"
                   start="Montréal"
                   end="Louiseville"
                   length="100 km"
@@ -420,7 +435,7 @@ function App() {
                     ></Heure>
                 </Jour>
 
-              </Timeline>
+              </Timeline>*/}
             </Section>
 
             <Section id="participer">
@@ -438,7 +453,8 @@ function App() {
                 vous êtes en forme et avez déjà de l'expérience pour ce genre de trajet.
               </p>
               <div class="border bg-green-50 border-green-600 p-5 rounded-lg py-4">
-                <strong class="text-green-700"
+                <p>Formulaire d'inscription à venir!</p>
+                {/*<strong class="text-green-700"
                   >Il est obligatoire de remplir le formulaire pour participer à la cavalcade.
                 </strong> <br />
                 Cela nous permet de collecter les fonds pour réserver le transport du retour et de nous assurer
@@ -451,9 +467,7 @@ function App() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeiN4QqFrWO7WYZAeTnqY0hhXYb5HKGDER4vFpYTW5ED5uNNw/viewform"
                     target="_blank">Rejoignez la cavalcade!</a
                   >
-                </div>
-                <strong>Note: </strong> Le transport Québec-Montréal se fera par autobus de style Orléans Express. Il reste encore quelques places disponibles selon le principe du premier arrivé, premier servi. N'hésitez pas à vous inscrire si vous ne l'avez pas déjà fait et avez besoin d'un transport pour vous et votre vélo vers Montréal le 5 septembre.
-                <br />
+                </div>*/}
               </div>
               <dl>
                 <dt>Équipement</dt>
@@ -474,7 +488,7 @@ function App() {
                   <dd>
                     Révisez l'itinéraire sur cette page avant le départ et informez vous sur les
                     conseils pour <Link
-                      href="https://velo2000.qc.ca/nouvelles/rouler-en-peloton/#:~:text=C'est%20une%20pratique%20qui,groupe%2C%20c'est%20motivant"
+                      href="https://boutique.velo2000.qc.ca/blogs/nouvelles/rouler-en-peloton/"
                       >rouler en peloton</Link
                     >.
                   </dd>

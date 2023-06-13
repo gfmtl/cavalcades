@@ -3,7 +3,12 @@
     background-size: 700px;
   }
 
+  .picture {
+    width: 20em;
+  }
+
   dt {
     font-weight: bold;
     margin-top: 1em;
   }
+
