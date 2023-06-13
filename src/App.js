@@ -1,5 +1,3 @@
-import { HashLink } from 'react-router-hash-link';
-
 import logo from './cavalcade-2023-logo_noir_transparent.png';
 import './App.css';
 
