@@ -264,7 +264,7 @@ function App() {
                   date="Dimanche 3 septembre 2022"
                   start="Saint Jean-sur-Richelieu"
                   end="Granby"
-                  length="49 ou 94 km"
+                  length="49 ou 97 km"
                 >
                   <Heure start="09h00">Saint Jean-sur-Richelieu -> Farnham  (25.0 km)</Heure>
                   <Heure start="10h25">
