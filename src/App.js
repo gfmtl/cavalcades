@@ -277,12 +277,12 @@ function App() {
                     href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3965441,-72.7145278,18z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
                     >Parc de l'Estriade</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="13h20">Boucle optionnel: Granby -> Waterloo -> Granby (48.0 km)</Heure>
-                  <Heure start="15h00">Boucle optionnel: Halte au <Link 
+                  <Heure start="13h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
+                  <Heure start="15h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
                     >Parc Caboose</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="16h30">Boucle optionnel: Retour à Granby</Heure>
+                  <Heure start="16h30">Boucle optionnelle: Retour à Granby</Heure>
                 </Jour>
 
                 <Jour
@@ -358,7 +358,7 @@ function App() {
                 </dd>
                 <dt>Nourriture</dt>
                 <dd>
-                  Nous prévoyons des pauses de 30min à une heure, à chaque 25 km à 35 km, l'avant-midi,
+                  Nous prévoyons des pauses régulières de 30min à une heure l'avant-midi,
                   le midi et l'après-midi tout près des épiceries/restaurants.
                 </dd>
                 <dl>
