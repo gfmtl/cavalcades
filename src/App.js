@@ -1,4 +1,5 @@
 import logo from './cavalcade-2023-logo_noir_transparent.png';
+import itineraire from './itinerary.jpg';
 import './App.css';
 
 const Link = props => 
@@ -79,7 +80,7 @@ function App() {
         <div class="mx-auto text-slate-800">
           <div class="p-8 space-y-5 mx-auto text-center text-lg text-purple-600 ">
             <div>Oyez Oyez Oyez!!! <br /> Vous êtes toutes et tous convié.e.s à la</div>
-            <img src={logo} alt="Cavalcade 2022 - Deux Roues Un avenir" class="m-auto picture" />
+            <img src={logo} alt="Cavalcade 2023 - De Petites à Grandes Roues" class="m-auto picture" />
             <div>Du 2 au 4 septembre 2023</div>
           </div>
         </div>
@@ -91,6 +92,7 @@ function App() {
               <NavItem href="#pourquoi">Revendications</NavItem>
               <NavItem href="#chemin">Itinéraire</NavItem>
               <NavItem href="#participer">Comment participer</NavItem>
+              <NavItem href="#faq">Foire aux questions</NavItem>
               <NavItem href="#contact">Nous contacter</NavItem>
               <NavItem color="facebook" href="https://www.facebook.com/cavalcadevelo">Facebook</NavItem>
             </ul>
@@ -123,31 +125,43 @@ function App() {
             <Section id="pourquoi">
               <SectionTitle>Revendications</SectionTitle>
 
-              <h5 class="font-bold">À la vue</h5>
+              <h5 class="font-bold">Étant donné que</h5>
               <ul>
                 <li>
-                  Des défis des changements climatiques que seule l'électrification ne saura affronter;
+                  Moins de 20 % des écoliers québécois se déplacent activement alors que 80 % le faisaient dans les années ’80.
                 </li>
                 <li>
-                  Des problèmes de santé physique et mentale résultant de nos modes de vie sédentaires;
-                </li>
-                <li>Des problèmes de sécurité du transport actif;</li>
-                <li>De la montée croissante de l'usage du transport actif dans la province.</li>
-              </ul>
-              <h5 class="font-bold">Étant donné</h5>
-              <ul>
-                <li>
-                  Que le vélo et les transports actifs sont écologiques, efficaces, durables,
-                  économiques et sont l'une des meilleures options de transport pour de courtes
-                  distances mais aussi pour d'autres usages à la grandeur de la province;
+                  Le sentiment d’insécurité est généralisé chez les parents québécois.
                 </li>
               </ul>
-              <p><strong>
-                Nous demandons au gouvernement du Québec de mettre en place une politique nationale
-                ambitieuse du vélo utilitaire et d'en faire un projet de société.
-              </strong></p>
 
-              <div class="p-5 bg-purple-100 cursor-pointer text-purple-900">
+              <h5 class="font-bold">Nous déplorons que</h5>
+              <ul>
+                <li>
+                  Les cheminements scolaires ne soient pas adéquatement protégés, générant de l’insécurité, des blessés, et des morts.
+                </li>
+                <li>
+                  Les mesures déployées pour y remédier se limitent trop souvent à des campagnes peu efficaces ou temporaires de signalisation, de répression, ou de sensibilisation.
+                </li>
+                <li>
+                  L’absence de responsable et de normes devant assurer la sécurité des enfants en route vers l’école ait engendré la mise en place et le maintien d’aménagements dangereux à travers le Québec.
+                </li>
+              </ul>
+
+              <h5 class="font-bold">Nous demandons que</h5>
+              <ul>
+                <li>
+                  Respectent le principe selon lequel la responsabilité de la sécurité des enfants se déplaçant activement incombe principalement aux responsables des infrastructures,
+                </li>
+                <li>
+                  S’appliquent au périmètre des cheminements scolaires de toutes les écoles du Québec tant sur les routes municipales que sur celles sous la responsabilité du MTMD,
+                </li>
+                <li>
+                  Protègent effectivement les enfants se déplaçant activement vers l’école au moyen d’aménagements sécurisant l’environnement routier et démontrés efficaces.
+                </li>
+              </ul>
+
+              {/*<div class="p-5 bg-purple-100 cursor-pointer text-purple-900">
                 Créer un plan de mobilité active national et décennal, avec un financement conséquent,
                 et en faire un projet de société.
                 <ul slot="content">
@@ -223,13 +237,14 @@ function App() {
                   <li>Accorder des crédits d'impôt aux citoyens qui ne possèdent pas d'auto.</li>
                   <li>Lancer une campagne publicitaire valorisant le transport actif utilitaire.</li>
                 </ul>
-              </div>
+              </div>*/}
             </Section>
 
             <Section id="chemin">
               <SectionTitle>Itinéraire</SectionTitle>
 
-              <p>Montréal -> Granby -> Montréal sur la rive sud, majoritairement via la route verte.</p>
+              <img src={itineraire} alt="Itineraire" class="m-auto itineraire" />
+              <p></p>
 
               <Timeline>
                 
@@ -331,23 +346,27 @@ function App() {
                 vous êtes en forme et avez déjà de l'expérience pour ce genre de trajet.
               </p>
               <div class="border bg-green-50 border-green-600 p-5 rounded-lg py-4">
-                <p>Formulaire d'inscription à venir!</p>
-                {/*<strong class="text-green-700"
+                <strong class="text-green-700"
                   >Il est obligatoire de remplir le formulaire pour participer à la cavalcade.
                 </strong> <br />
-                Cela nous permet de collecter les fonds pour réserver le transport du retour et de nous assurer
-                que nos campings pourront accommoder le nombre de participants.
+                Cela nous permet de collecter les fonds pour couvrir les dépenses logistiques et nous assurer que les campings pourront accommoder le nombre de participants. Les profits, si existants, seront offert à une OBNL oeuvrant dans la défense du cyclisme.
 
                 <div class="flex">
                   <a
                     class="block text-xl m-auto my-4 px-5 py-4 border shadow-md rounded-lg  
               bg-white border-green-600 no-underline text-green-700 transition-all hover:translate-y-1 hover:shadow-sm hover:bg-green-700 hover:text-white"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeiN4QqFrWO7WYZAeTnqY0hhXYb5HKGDER4vFpYTW5ED5uNNw/viewform"
+                    href="https://www.zeffy.com/fr-CA/ticketing/5ce6ec36-b690-4c6f-80fe-7fc3d5e4d779"
                     target="_blank">Rejoignez la cavalcade!</a
                   >
-                </div>*/}
+                </div>
               </div>
               <dl>
+                <dt>Groupe des participants</dt>
+                <dd>
+                  Rejoignez le <Link
+                    href="https://www.facebook.com/groups/461416868754956"
+                    >groupe des participants </Link> afin d'échanger avec vos futurs compatriotes et, notamment, organiser un transport jusqu'à Montréal ou emprunter du matériel de plein-air. 
+                </dd>
                 <dt>Équipement</dt>
                 <dd>
                   Prévoir tout son équipement typique pour le vélo-camping: vélo, tente, matelas de sol,
@@ -382,7 +401,7 @@ function App() {
                 <dd>En personne ou en ligne! Partagez cette page ou l'événement Facebook.</dd>
                 <dt>
                   <Link
-                    href="https://checkout.stripe.com/pay/cs_live_a11XzIrrToO4ZeuDAeACg8sZMrHj6tU0DbJZs2FJyw2nvI1Drt0D0cMtx4#fidkdWxOYHwnPyd1blppbHNgWjA0SVdscmdGRldmUGhmRmdgNk9udk1JTWMxTE1ITTxkTkwzQUxMNlNuYnVTVVZpaVxdX09WZDJhQzdXXVFCNz12QzxVX2lVbWFJTENTcUJkYTN9YG9pUl9kNTU3dFVXbExWaicpJ3VpbGtuQH11anZgYUxhJz8nY19gPEdvYmxpPWNiZklwYFBSJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKmFqZnYrYmpqYmlgK2ZqaConeCUl"
+                    href="https://www.zeffy.com/fr-CA/donation-form/64c31c0e-b5c1-4f10-a959-af283abda885"
                     >Contribuez financièrement</Link
                   >
                 </dt>
@@ -390,6 +409,54 @@ function App() {
                   Tous les fonds ramassés seront utilisés pour l'organisation de futures cavalcades!
                 </dd>
               </dl>
+            </Section>
+
+            <Section id="faq">
+              <SectionTitle>Foire aux questions</SectionTitle>
+
+              <h5 class="font-bold">C’est quoi la Cavalcade?</h5>
+              <p>
+                C’est une manifestive, qui a pour but de promouvoir l’utilisation du vélo et des transports actifs 
+                en sensibilisant la population et les pouvoirs publics à la nécessité de mise en place d’infrastructures 
+                sécuritaires dans les villes et dans les campagnes.
+              </p>
+
+              <h5 class="font-bold">Est-ce que vous fournissez/louez de l’équipement?</h5>
+              <p>
+                Non, nous ne fournissons aucun équipement que ce soit de vélo ou de camping. Cependant, nous avons mis 
+                en place <Link href="https://www.facebook.com/groups/461416868754956">groupe des participants</Link> pour 
+                que les participants puissent se prêter ou partager du matériel entre eux.
+              </p>
+
+              <h5 class="font-bold">À quelle allure roulez-vous?</h5>
+              <p>
+                Les participants seront répartis en groupes selon leur allure, en gros de 15 à 29 km/h. Il y 
+                en aura pour tous les goûts et il sera bien sûr possible de changer de groupe au cours de la Cavalcade. 
+                Il y aura aussi des pauses prévues environ tous les 20 km. Le parcours se veut réellement inclusif, 
+                on ne laissera personne derrière!
+              </p>
+
+              <h5 class="font-bold">Faut-il obligatoirement s’inscrire?</h5>
+              <p>
+                Oui! Nous avons négocié des emplacements de camping à Saint-Jean-sur-Richelieu et Granby. Nous 
+                devrons les informer de notre nombre pour réserver les emplacements.
+              </p>              
+
+              <h5 class="font-bold">Les enfants sont-ils admis?</h5>
+              <p>
+                Bien sûr! Qu’ils roulent d’eux-mêmes ou comme passagers sur une remorque, en vélo-cargo, sur un 
+                siège ou autre. Assurez-vous uniquement qu’ils soient capables de parcourir la distance incluses 
+                dans l'<Link href="#chemin">itinéraire</Link> et de maintenir un rythme minimum d’environ 15 km/h.
+              </p>              
+            
+              <h5 class="font-bold">Fournissez-vous une assistance?</h5>
+              <p>
+                Une voiture d’assistance fournira une assistance mécanique minimale afin de répondre aux imprévus. 
+                Il est conseillé d’apporter sa propre trousse à outils. En cas de problème mineur, chaque groupe comportera 
+                une personne titulaire d’un brevet de premiers secours mais est, encore une fois, est conseillé d’apporter 
+                sa trousse de premiers soins. En cas de problème majeur, contacter le 911 sera nécessaire.
+              </p>              
+            
             </Section>
 
             <Section id="contact">

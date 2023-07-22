@@ -7,6 +7,10 @@
     width: 20em;
   }
 
+  .itineraire {
+    width: 50em;
+  }
+
   dt {
     font-weight: bold;
     margin-top: 1em;
