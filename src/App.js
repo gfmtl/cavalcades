@@ -243,7 +243,9 @@ function App() {
             <Section id="chemin">
               <SectionTitle>Itinéraire</SectionTitle>
 
-              <img src={itineraire} alt="Itineraire" class="m-auto itineraire" />
+              <a href="https://www.google.com/maps/d/u/0/edit?mid=1JQ0GqPk1kZXJiGJGs2jmEFNbp3l5BTc&ll=45.35870631813201%2C-73.02884105000001&z=9">
+                <img src={itineraire} alt="Itineraire" class="m-auto itineraire" />
+              </a>
               <p></p>
 
               <Timeline>
@@ -253,25 +255,34 @@ function App() {
                   date="Samedi 2 septembre 2023"
                   start="Montréal"
                   end="Saint-Jean-sur-Richelieu"
-                  length="66 km"
+                  length="59 km"
                 >
                   <Heure start="08h00">
                     Rassemblement à l'<Link
                     href="https://www.google.com/maps/place/%C3%89cole+primaire+Jean-Baptiste-Meilleur/@45.5316737,-73.558441,446m/data=!3m1!1e3!4m6!3m5!1s0x4cc91bbe35017fef:0xd4f00925a2a08a3e!8m2!3d45.5320839!4d-73.5579646!16s%2Fg%2F1w04jqnp?entry=ttu"
                     >École primaire Jean-Baptiste-Meilleur</Link>
                   </Heure>
-                  <Heure start="09h00">Montréal - > Sainte Catherine (24.0 km)</Heure>
-                  <Heure start="10h15">Collation (lieu à venir) </Heure>
+                  <Heure start="09h00">Montréal - > Sainte Catherine (22.0 km)</Heure>
+                  <Heure start="10h15">Collation au <Link
+                    href="https://www.google.com/maps/place/Parc+Francis-Xavier-Fontaine/@45.4057333,-73.5761976,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc911add3c7f823:0x70b6ca08d31ac5c5!8m2!3d45.4057333!4d-73.5736227!16s%2Fg%2F11qpjk06s0?entry=ttu"
+                    >Parc Francis-Xavier-Fontaine</Link> 🚻 🚰
+                  </Heure>
                   <Heure start="10h45">Sainte Catherine -> Saint-Philippe (12.0 km)</Heure>
                   <Heure start="11h30">
                     Dîner au <Link
                     href="https://www.google.com/maps/place/Parc+G%C3%A9rard-Laframboise/@45.3616101,-73.4811907,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4cc90c7658978101:0xd7496d1bcfc7af45!8m2!3d45.3616101!4d-73.4786158!16s%2Fg%2F11cp6jrx86!5m1!1e3?entry=tts&shorturl=1"
                     >Parc Gérard-Laframboise</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="13h00">Saint-Philippe -> Saint-Jacques-le-Mineur (11.0 km)</Heure>
-                  <Heure start="13h35">Collation (lieu à venir) </Heure>
-                  <Heure start="14h00">Saint-Jacques-le-Mineur -> Saint-Jean-sur-Richelieu (19.0 km)</Heure>
-                  <Heure start="15h00">Arrivée à Saint-Jean-sur-Richelieu</Heure>
+                  <Heure start="13h00">Saint-Philippe -> Parc des Ancêtres (15.0 km)</Heure>
+                  <Heure start="13h45">Collation au  <Link
+                    href="https://www.google.com/maps/place/Parc+des+Anc%C3%AAtres/@45.3154939,-73.3478655,16.27z/data=!4m6!3m5!1s0x4cc9a176e072e365:0x40b5228d343700a1!8m2!3d45.3153108!4d-73.3461523!16s%2Fg%2F11nnjrxbcn?entry=ttu"
+                    >Parc des Ancêtres</Link> 🚻 
+                  </Heure>
+                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.0 km)</Heure>
+                  <Heure start="15h00">Arrivée au <Link
+                    href="https://www.google.com/maps/place/Centre-de-Plein-Air-Ronald-Beauregard/@45.2775076,-73.2778579,13.04z/data=!4m6!3m5!1s0x4cc9a2626f10812d:0x736f99afc17099f2!8m2!3d45.2883523!4d-73.251608!16s%2Fg%2F11b5wkbv7c?entry=tts&shorturl=1"
+                    >Centre-de-Plein-Air-Ronald-Beauregard</Link> 🚻 🚰
+                  </Heure>
                 </Jour>
               
                 <Jour
@@ -288,10 +299,7 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Arrivée à Granby au <Link 
-                    href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3965441,-72.7145278,18z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
-                    >Parc de l'Estriade</Link> 🚻 🚰
-                  </Heure>
+                  <Heure start="12h20">Arrivée à Granby</Heure>
                   <Heure start="13h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
                   <Heure start="15h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
