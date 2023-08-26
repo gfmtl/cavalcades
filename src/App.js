@@ -278,7 +278,7 @@ function App() {
                     href="https://www.google.com/maps/place/Parc+des+Anc%C3%AAtres/@45.3154939,-73.3478655,16.27z/data=!4m6!3m5!1s0x4cc9a176e072e365:0x40b5228d343700a1!8m2!3d45.3153108!4d-73.3461523!16s%2Fg%2F11nnjrxbcn?entry=ttu"
                     >Parc des Ancêtres</Link> 🚻 
                   </Heure>
-                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.03 km)</Heure>
+                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.01 km)</Heure>
                   <Heure start="15h00">Arrivée au <Link
                     href="https://www.google.com/maps/place/Centre-de-Plein-Air-Ronald-Beauregard/@45.2775076,-73.2778579,13.04z/data=!4m6!3m5!1s0x4cc9a2626f10812d:0x736f99afc17099f2!8m2!3d45.2883523!4d-73.251608!16s%2Fg%2F11b5wkbv7c?entry=tts&shorturl=1"
                     >Centre-de-Plein-Air-Ronald-Beauregard</Link> 🚻 🚰
