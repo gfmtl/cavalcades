@@ -299,14 +299,15 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Halte à Granby - Parc de l Estriade</Heure>
-                  <Heure start="13h20">Arrivée à Camping de la rivière du passant (20.0 km)</Heure>
-                  <Heure start="14h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
-                  <Heure start="16h00">Boucle optionnelle: Halte au <Link 
+                  <Heure start="12h20">Diner à Granby - Parc de l Estriade</Heure>
+                  <Heure start="13h30">Parc de l Estriade - Camping de la rivière du passant (20.0 km)</Heure>    
+                  <Heure start="14h30">Arrivée à Camping de la rivière du passant</Heure>
+                  <Heure start="15h00">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
+                  <Heure start="17h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
                     >Parc Caboose</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="16h30">Boucle optionnelle: Retour au camping</Heure>
+                  <Heure start="18h00">Boucle optionnelle: Retour au camping</Heure>
                 </Jour>
 
                 <Jour
