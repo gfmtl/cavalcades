@@ -317,25 +317,36 @@ function App() {
                   end="Montréal"
                   length="92 km"
                 >
-                  <Heure start="09h00">Saint-Joachim-de-Shefford -> Saint Césaire (25.0 km)</Heure>
+                  <Heure start="09h00">Saint-Joachim-de-Shefford -> Granby (20.0 km)</Heure>
                   <Heure start="10h15">
-                    Collation à l'<Link
-                    href="https://www.google.com/maps/place/Halte+Routi%C3%A8re+Saint-C%C3%A9saire/@45.4144654,-73.02423,17.13z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9b176ac3986e7:0xb783fb92d16da65f!8m2!3d45.4146903!4d-73.022382!16s%2Fg%2F11frslkvb0?entry=ttu"
-                    >Halte Routière Saint-Césaire</Link> 🚻 🚰
+                    Collation au parc de l'<Link
+                    href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3966838,-72.7135372,15z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
+                    >Estriade</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="10h45">Saint Césaire -> Chambly (27.0 km)</Heure>
+                  <Heure start="10h45">Granby -> Saint Césaire (25.0 km)</Heure>
                   <Heure start="12h00">
+                    Collation à la halte routière de  <Link 
+                    href="https://www.google.com/maps/place/Halte+Routi%C3%A8re+Saint-C%C3%A9saire/@45.4144654,-73.02423,17.13z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9b176ac3986e7:0xb783fb92d16da65f!8m2!3d45.4146903!4d-73.022382!16s%2Fg%2F11frslkvb0?entry=ttu"
+                    >Saint-Césaire</Link> 🚻
+                      </Heure>
+                  <Heure start="12h15">Saint-Césaire -> Chambly (27.0 km)</Heure>
+                  <Heure start="13h30">
                     Dîner au <Link
                     href="https://www.google.com/maps/place/Lieu+historique+national+du+Canal-de-Chambly/@45.4471723,-73.2845301,17.99z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9a684e04c85cf:0x70cd386e5bf2e5e2!8m2!3d45.446883!4d-73.283323!16zL20vMDRoYndn?entry=ttu"
                     >Lieu historique national du Canal-de-Chambly</Link> 🚻
                   </Heure>
-                  <Heure start="14h00">Chambly -> Longueuil (20.0 km)</Heure>
-                  <Heure start="15h00">
+                  <Heure start="15h00">Chambly -> Longueuil (20.0 km)</Heure>
+                  <Heure start="16h00">
                     Collation au <Link
                     href="https://www.google.com/maps/place/Parc+Christ-Roi/@45.5112736,-73.466267,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc904e85f3a6bd1:0x15577735d162c5c8!8m2!3d45.5112699!4d-73.4636921!16s%2Fg%2F1tz95c1x?entry=ttu"
                     >Parc Christ-Roi</Link> 🚻
                   </Heure>
-                  <Heure start="15h30">Masse critique et retour sur Montréal</Heure>
+                  <Heure start="16h20">Parc Christ-Roi -> Montréal (9.0 km)</Heure>
+                  <Heure start="17h00">
+                    Rassemblement pour la masse critique au <Link
+                    href="https://www.google.com/maps/place/Parc+des+Faubourgs/@45.5255304,-73.5555144,18.79z/data=!4m10!1m2!2m1!1sparc+des+faubourg!3m6!1s0x4cc91bbbdefcb84f:0x1a18c9444001faf8!8m2!3d45.526805!4d-73.5565299!15sChFwYXJjIGRlcyBmYXVib3VyZ5IBBHBhcmvgAQA!16s%2Fg%2F11c6zwvjnf?entry=ttu"
+                    >Parc des Faubourg</Link> à l'entrée du Pont-Jacques-Cartier
+                  </Heure>
                 </Jour>
 
               </Timeline>
