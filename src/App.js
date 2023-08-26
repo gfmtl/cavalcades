@@ -290,7 +290,7 @@ function App() {
                   date="Dimanche 3 septembre 2023"
                   start="Saint Jean-sur-Richelieu"
                   end="Granby"
-                  length="49 ou 97 km"
+                  length="69 ou 117 km"
                 >
                   <Heure start="09h00">Saint Jean-sur-Richelieu -> Farnham  (25.0 km)</Heure>
                   <Heure start="10h25">
@@ -299,9 +299,10 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Arrivée à Granby</Heure>
-                  <Heure start="13h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
-                  <Heure start="15h00">Boucle optionnelle: Halte au <Link 
+                  <Heure start="12h20">Halte à Granby - Parc de l Estriade</Heure>
+                  <Heure start="13h20">Arrivée à Camping de la rivière du passant</Heure>
+                  <Heure start="14h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
+                  <Heure start="16h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
                     >Parc Caboose</Link> 🚻 🚰
                   </Heure>
