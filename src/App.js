@@ -435,7 +435,7 @@ function App() {
             <Section id="faq">
               <SectionTitle>Foire aux questions</SectionTitle>
 
-              <h5 class="font-bold">C’est quoi la Cavalcade?</h5>
+              <h5 class="font-bold">C’est quoi la Cavalcade Vélo ?</h5>
               <p>
                 C’est une manifestive, qui a pour but de promouvoir l’utilisation du vélo et des transports actifs 
                 en sensibilisant la population et les pouvoirs publics à la nécessité de mise en place d’infrastructures 
