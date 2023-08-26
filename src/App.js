@@ -278,7 +278,7 @@ function App() {
                     href="https://www.google.com/maps/place/Parc+des+Anc%C3%AAtres/@45.3154939,-73.3478655,16.27z/data=!4m6!3m5!1s0x4cc9a176e072e365:0x40b5228d343700a1!8m2!3d45.3153108!4d-73.3461523!16s%2Fg%2F11nnjrxbcn?entry=ttu"
                     >Parc des Ancêtres</Link> 🚻 
                   </Heure>
-                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.0 km)</Heure>
+                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.01 km)</Heure>
                   <Heure start="15h00">Arrivée au <Link
                     href="https://www.google.com/maps/place/Centre-de-Plein-Air-Ronald-Beauregard/@45.2775076,-73.2778579,13.04z/data=!4m6!3m5!1s0x4cc9a2626f10812d:0x736f99afc17099f2!8m2!3d45.2883523!4d-73.251608!16s%2Fg%2F11b5wkbv7c?entry=tts&shorturl=1"
                     >Centre-de-Plein-Air-Ronald-Beauregard</Link> 🚻 🚰
@@ -289,8 +289,8 @@ function App() {
                   link=""
                   date="Dimanche 3 septembre 2023"
                   start="Saint Jean-sur-Richelieu"
-                  end="Granby"
-                  length="49 ou 97 km"
+                  end="Saint-Joachim-de-Shefford"
+                  length="69 ou 117 km"
                 >
                   <Heure start="09h00">Saint Jean-sur-Richelieu -> Farnham  (25.0 km)</Heure>
                   <Heure start="10h25">
@@ -299,41 +299,54 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Arrivée à Granby</Heure>
-                  <Heure start="13h20">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
-                  <Heure start="15h00">Boucle optionnelle: Halte au <Link 
+                  <Heure start="12h20">Diner à Granby - Parc de l Estriade</Heure>
+                  <Heure start="13h30">Parc de l Estriade - Camping de la rivière du passant (20.0 km)</Heure>    
+                  <Heure start="14h30">Arrivée à Camping de la rivière du passant</Heure>
+                  <Heure start="15h00">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
+                  <Heure start="17h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
                     >Parc Caboose</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="16h30">Boucle optionnelle: Retour à Granby</Heure>
+                  <Heure start="18h00">Boucle optionnelle: Retour au camping</Heure>
                 </Jour>
 
                 <Jour
                   link=""
                   date="Lundi 4 septembre 2023"
-                  start="Granby"
+                  start="Saint-Joachim-de-Shefford"
                   end="Montréal"
-                  length="72 km"
+                  length="92 km"
                 >
-                  <Heure start="09h00">Granby -> Saint Césaire (25.0 km)</Heure>
+                  <Heure start="09h00">Saint-Joachim-de-Shefford -> Granby (20.0 km)</Heure>
                   <Heure start="10h15">
-                    Collation à l'<Link
-                    href="https://www.google.com/maps/place/Halte+Routi%C3%A8re+Saint-C%C3%A9saire/@45.4144654,-73.02423,17.13z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9b176ac3986e7:0xb783fb92d16da65f!8m2!3d45.4146903!4d-73.022382!16s%2Fg%2F11frslkvb0?entry=ttu"
-                    >Halte Routière Saint-Césaire</Link> 🚻 🚰
+                    Collation au parc de l'<Link
+                    href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3966838,-72.7135372,15z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
+                    >Estriade</Link> 🚻 🚰
                   </Heure>
-                  <Heure start="10h45">Saint Césaire -> Chambly (27.0 km)</Heure>
+                  <Heure start="10h45">Granby -> Saint Césaire (25.0 km)</Heure>
                   <Heure start="12h00">
+                    Collation à la halte routière de  <Link 
+                    href="https://www.google.com/maps/place/Halte+Routi%C3%A8re+Saint-C%C3%A9saire/@45.4144654,-73.02423,17.13z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9b176ac3986e7:0xb783fb92d16da65f!8m2!3d45.4146903!4d-73.022382!16s%2Fg%2F11frslkvb0?entry=ttu"
+                    >Saint-Césaire</Link> 🚻
+                      </Heure>
+                  <Heure start="12h15">Saint-Césaire -> Chambly (27.0 km)</Heure>
+                  <Heure start="13h30">
                     Dîner au <Link
                     href="https://www.google.com/maps/place/Lieu+historique+national+du+Canal-de-Chambly/@45.4471723,-73.2845301,17.99z/data=!4m15!1m8!3m7!1s0x4cc9b9f319a21971:0x5176eff118b82aba!2sSaint-C%C3%A9saire,+QC!3b1!8m2!3d45.410364!4d-73.002159!16s%2Fm%2F05z_cy1!3m5!1s0x4cc9a684e04c85cf:0x70cd386e5bf2e5e2!8m2!3d45.446883!4d-73.283323!16zL20vMDRoYndn?entry=ttu"
                     >Lieu historique national du Canal-de-Chambly</Link> 🚻
                   </Heure>
-                  <Heure start="14h00">Chambly -> Longueuil (20.0 km)</Heure>
-                  <Heure start="15h00">
+                  <Heure start="15h00">Chambly -> Longueuil (20.0 km)</Heure>
+                  <Heure start="16h00">
                     Collation au <Link
                     href="https://www.google.com/maps/place/Parc+Christ-Roi/@45.5112736,-73.466267,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc904e85f3a6bd1:0x15577735d162c5c8!8m2!3d45.5112699!4d-73.4636921!16s%2Fg%2F1tz95c1x?entry=ttu"
                     >Parc Christ-Roi</Link> 🚻
                   </Heure>
-                  <Heure start="15h30">Masse critique et retour sur Montréal</Heure>
+                  <Heure start="16h20">Parc Christ-Roi -> Montréal (9.0 km)</Heure>
+                  <Heure start="17h00">
+                    Rassemblement pour la masse critique au <Link
+                    href="https://www.google.com/maps/place/Parc+des+Faubourgs/@45.5255304,-73.5555144,18.79z/data=!4m10!1m2!2m1!1sparc+des+faubourg!3m6!1s0x4cc91bbbdefcb84f:0x1a18c9444001faf8!8m2!3d45.526805!4d-73.5565299!15sChFwYXJjIGRlcyBmYXVib3VyZ5IBBHBhcmvgAQA!16s%2Fg%2F11c6zwvjnf?entry=ttu"
+                    >Parc des Faubourg</Link> à l'entrée du Pont-Jacques-Cartier
+                  </Heure>
                 </Jour>
 
               </Timeline>
