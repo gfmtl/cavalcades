@@ -270,7 +270,7 @@ function App() {
                   <Heure start="10h45">Sainte Catherine -> Saint-Philippe (12.0 km)</Heure>
                   <Heure start="11h30">
                     Dîner au <Link
-                    href="https://www.google.com/maps/place/Parc+G%C3%A9rard-Laframboise/@45.3616101,-73.4811907,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4cc90c7658978101:0xd7496d1bcfc7af45!8m2!3d45.3616101!4d-73.4786158!16s%2Fg%2F11cp6jrx86!5m1!1e3?entry=tts&shorturl=1"
+                    href="https://www.google.com/maps/place/Parc+Gérard-Laframboise/@45.3616101,-73.4786158,17.11z/data=!4m6!3m5!1s0x4cc90c7658978101:0xd7496d1bcfc7af45!8m2!3d45.3616101!4d-73.4786158!16s%2Fg%2F11cp6jrx86!5m1!1e3?entry=ttu"
                     >Parc Gérard-Laframboise</Link> 🚻 🚰
                   </Heure>
                   <Heure start="13h00">Saint-Philippe -> Parc des Ancêtres (15.0 km)</Heure>
