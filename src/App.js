@@ -299,8 +299,11 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Diner à Granby - Parc de l Estriade</Heure>
-                  <Heure start="13h30">Parc de l Estriade - Camping de la rivière du passant (20.0 km)</Heure>    
+                  <Heure start="12h20">Diner au <Link 
+                    href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3963598,-72.7137732,15z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
+                    >Parc de l'Estriade</Link> 🚻 🚰
+                      </Heure>
+                  <Heure start="13h30">Parc de l Estriade -> Camping de la rivière du passant (20.0 km)</Heure>    
                   <Heure start="14h30">Arrivée à Camping de la rivière du passant</Heure>
                   <Heure start="15h00">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
                   <Heure start="17h00">Boucle optionnelle: Halte au <Link 
