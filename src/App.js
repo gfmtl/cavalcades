@@ -303,8 +303,11 @@ function App() {
                     href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3963598,-72.7137732,15z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
                     >Parc de l'Estriade</Link> 🚻 🚰
                       </Heure>
-                  <Heure start="13h30">Parc de l Estriade -> Camping de la rivière du passant (20.0 km)</Heure>    
-                  <Heure start="14h30">Arrivée à Camping de la rivière du passant</Heure>
+                  <Heure start="13h30">Parc de l'Estriade -> Saint-Joachim-de-Shefford (20.0 km)</Heure>    
+                  <Heure start="14h30">Arrivée au <Link 
+                    href="https://www.google.com/maps/place/Camping+La+Riviere+Du+Passant/@45.4122908,-72.5321667,15z/data=!4m6!3m5!1s0x4cc82b3870ad2775:0x2dc62750d0293d0f!8m2!3d45.4122908!4d-72.5321667!16s%2Fg%2F1tw_mvt0?entry=ttu"
+                    >Camping de la rivière du passant</Link> 🚻 🚰
+                      </Heure>
                   <Heure start="15h00">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
                   <Heure start="17h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
