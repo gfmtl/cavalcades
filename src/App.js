@@ -270,7 +270,7 @@ function App() {
                   <Heure start="10h45">Sainte Catherine -> Saint-Philippe (12.0 km)</Heure>
                   <Heure start="11h30">
                     Dîner au <Link
-                    href="https://www.google.com/maps/place/Parc+G%C3%A9rard-Laframboise/@45.3616101,-73.4811907,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4cc90c7658978101:0xd7496d1bcfc7af45!8m2!3d45.3616101!4d-73.4786158!16s%2Fg%2F11cp6jrx86!5m1!1e3?entry=tts&shorturl=1"
+                    href="https://www.google.com/maps/place/Parc+Gérard-Laframboise/@45.3616101,-73.4786158,17.11z/data=!4m6!3m5!1s0x4cc90c7658978101:0xd7496d1bcfc7af45!8m2!3d45.3616101!4d-73.4786158!16s%2Fg%2F11cp6jrx86!5m1!1e3?entry=ttu"
                     >Parc Gérard-Laframboise</Link> 🚻 🚰
                   </Heure>
                   <Heure start="13h00">Saint-Philippe -> Parc des Ancêtres (15.0 km)</Heure>
@@ -278,7 +278,7 @@ function App() {
                     href="https://www.google.com/maps/place/Parc+des+Anc%C3%AAtres/@45.3154939,-73.3478655,16.27z/data=!4m6!3m5!1s0x4cc9a176e072e365:0x40b5228d343700a1!8m2!3d45.3153108!4d-73.3461523!16s%2Fg%2F11nnjrxbcn?entry=ttu"
                     >Parc des Ancêtres</Link> 🚻 
                   </Heure>
-                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.01 km)</Heure>
+                  <Heure start="14h15">Parc des Ancêtres -> Saint-Jean-sur-Richelieu (10.00 km)</Heure>
                   <Heure start="15h00">Arrivée au <Link
                     href="https://www.google.com/maps/place/Centre-de-Plein-Air-Ronald-Beauregard/@45.2775076,-73.2778579,13.04z/data=!4m6!3m5!1s0x4cc9a2626f10812d:0x736f99afc17099f2!8m2!3d45.2883523!4d-73.251608!16s%2Fg%2F11b5wkbv7c?entry=tts&shorturl=1"
                     >Centre-de-Plein-Air-Ronald-Beauregard</Link> 🚻 🚰
@@ -299,9 +299,15 @@ function App() {
                     >Parc Israël Larochelle</Link> 🚻
                   </Heure>
                   <Heure start="11h00">Farnham -> Granby (24.0 km)</Heure>
-                  <Heure start="12h20">Diner à Granby - Parc de l Estriade</Heure>
-                  <Heure start="13h30">Parc de l Estriade - Camping de la rivière du passant (20.0 km)</Heure>    
-                  <Heure start="14h30">Arrivée à Camping de la rivière du passant</Heure>
+                  <Heure start="12h20">Diner au <Link 
+                    href="https://www.google.com/maps/place/Parc+de+l'Estriade/@45.3963598,-72.7137732,15z/data=!4m6!3m5!1s0x4cc9d0f45903dc17:0x4af0c141e83d5785!8m2!3d45.3963598!4d-72.7137732!16s%2Fg%2F11b7ld46q6?entry=ttu"
+                    >Parc de l'Estriade</Link> 🚻 🚰
+                      </Heure>
+                  <Heure start="13h30">Parc de l'Estriade -> Saint-Joachim-de-Shefford (20.0 km)</Heure>    
+                  <Heure start="14h30">Arrivée au <Link 
+                    href="https://www.google.com/maps/place/Camping+La+Riviere+Du+Passant/@45.4122908,-72.5321667,15z/data=!4m6!3m5!1s0x4cc82b3870ad2775:0x2dc62750d0293d0f!8m2!3d45.4122908!4d-72.5321667!16s%2Fg%2F1tw_mvt0?entry=ttu"
+                    >Camping de la rivière du passant</Link> 🚻 🚰
+                      </Heure>
                   <Heure start="15h00">Boucle optionnelle: Granby -> Waterloo -> Granby (48.0 km)</Heure>
                   <Heure start="17h00">Boucle optionnelle: Halte au <Link 
                     href="https://www.google.com/maps/place/Park+Caboose/@45.3379842,-72.5363076,17.09z/data=!4m6!3m5!1s0x4cc9d7e81849a8a9:0x348d78fea5bb1a86!8m2!3d45.3379545!4d-72.5336004!16s%2Fg%2F11c1qs2ndk?entry=tts&shorturl=1"
@@ -435,7 +441,7 @@ function App() {
             <Section id="faq">
               <SectionTitle>Foire aux questions</SectionTitle>
 
-              <h5 class="font-bold">C’est quoi la Cavalcade?</h5>
+              <h5 class="font-bold">C’est quoi la Cavalcade Vélo ?</h5>
               <p>
                 C’est une manifestive, qui a pour but de promouvoir l’utilisation du vélo et des transports actifs 
                 en sensibilisant la population et les pouvoirs publics à la nécessité de mise en place d’infrastructures 
