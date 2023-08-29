@@ -92,9 +92,10 @@ function App() {
               <NavItem href="#pourquoi">Revendications</NavItem>
               <NavItem href="#chemin">Itinéraire</NavItem>
               <NavItem href="#participer">Comment participer</NavItem>
-              <NavItem href="#faq">Foire aux questions</NavItem>
-              <NavItem href="#contact">Nous contacter</NavItem>
               <NavItem color="facebook" href="https://www.facebook.com/cavalcadevelo">Facebook</NavItem>
+              <NavItem href="#faq">Foire aux questions</NavItem>
+              <NavItem href="#contact">Partenaires</NavItem>
+              <NavItem href="#contact">Nous contacter</NavItem>
             </ul>
           </div>
         </nav>
@@ -361,7 +362,7 @@ function App() {
             <Section id="participer">
               <SectionTitle>Comment participer</SectionTitle>
 
-              <p>Ça vous interpelle?! Joignez-vous à nous!</p>
+              <p>Ça vous interpelle?! Joignez-vous à nous! C'est <b>gratuit!</b></p>
 
               <SubTitle>Joindre la cavalcade</SubTitle>
               <p>
@@ -478,12 +479,21 @@ function App() {
             
               <h5 class="font-bold">Fournissez-vous une assistance?</h5>
               <p>
-                Une voiture d’assistance fournira une assistance mécanique minimale afin de répondre aux imprévus. 
-                Il est conseillé d’apporter sa propre trousse à outils. En cas de problème mineur, chaque groupe comportera 
-                une personne titulaire d’un brevet de premiers secours mais est, encore une fois, est conseillé d’apporter 
-                sa trousse de premiers soins. En cas de problème majeur, contacter le 911 sera nécessaire.
+                Une unité mobile fournira une assistance mécanique afin de répondre aux imprévus. 
+                Il est conseillé d’apporter sa propre trousse à outils. En cas de problème, texter le mécano de soutien, 
+                Roberto, de l'unité mobile au 438-765-6351 en partageant votre position. Il se déplacera pour vous porter
+                assistance dans la mesure du possible. En cas d'urgence, contacter le 911 sera nécessaire.
               </p>              
             
+            </Section>
+
+            <Section id="partenaires">
+              <SectionTitle>Partenaires</SectionTitle>
+
+              <Link href="https://recycliste.ca/fr/index.html">ReCycliste</Link><br />
+              <Link href="https://coalitionmam.org/">Coalition Mobilité Active Montréal</Link><br />
+              <Link href="https://benedicteberube.com/">Bénédicte Bérubé</Link><br />
+
             </Section>
 
             <Section id="contact">
